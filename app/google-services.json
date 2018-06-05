@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "14887321743",
+    "firebase_url": "https://lendurcash.firebaseio.com",
+    "project_id": "lendurcash",
+    "storage_bucket": "lendurcash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14887321743:android:bb95efdd0e637508",
+        "android_client_info": {
+          "package_name": "com.canaveral.ies.lendurcash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14887321743-a92u99110assjae5l2dha9dd9i6m0bcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.canaveral.ies.lendurcash",
+            "certificate_hash": "617576281afd2aecc0019cfdf984345043cb47ac"
+          }
+        },
+        {
+          "client_id": "14887321743-cc1g3gga6cn5uoe1v6vc49h6tb55d0gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbxKf1kQnQ6e-XAm0nE23e1Tv_m17mL-o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14887321743-cc1g3gga6cn5uoe1v6vc49h6tb55d0gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
