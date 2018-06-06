@@ -38,10 +38,14 @@ public class FriendsAdapter extends BaseAdapter{
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup viewGroup) {
+    public View getView(int position, View convertView, ViewGroup viewGroup){
+        View v = convertView;
+        return v;
+    }
+    /*public View getView(int position, View convertView, ViewGroup viewGroup) {
         View v = convertView;
         LayoutInflater layoutInflater = LayoutInflater.from(this.context);
-        v = layoutInflater.inflate(R.layout.item_listview_chat, null);
+        v = layoutInflater.inflate(R.layout.item_listview_home, null);
         String userName = friends.get(position).getUser();
         String money = "20€";
 
@@ -53,5 +57,5 @@ public class FriendsAdapter extends BaseAdapter{
         tvUserName.setText(userName);
         tvMoney.setText(money);
         return v;
-    }
+    }*/
 }

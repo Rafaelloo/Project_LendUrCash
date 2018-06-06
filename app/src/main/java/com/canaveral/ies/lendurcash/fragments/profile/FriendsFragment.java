@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 import com.canaveral.ies.lendurcash.R;
-import com.canaveral.ies.lendurcash.Utils.Adapters.MyAdapter;
+import com.canaveral.ies.lendurcash.utils.adapters.HomeAdapter;
 
 public class FriendsFragment extends Fragment {
     private ListView lvFriends;
@@ -20,7 +20,7 @@ public class FriendsFragment extends Fragment {
 
         lvFriends = (ListView) view.findViewById(R.id.lvFRFFriends);
 
-        MyAdapter adapter = new MyAdapter(view.getContext(),R.layout.item_listview_chat);
+        HomeAdapter adapter = new HomeAdapter(view.getContext(),R.layout.item_listview_home);
 
         lvFriends.setAdapter(adapter);
 

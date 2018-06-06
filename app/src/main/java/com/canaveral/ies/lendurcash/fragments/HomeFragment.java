@@ -8,9 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.canaveral.ies.lendurcash.R;
-import com.canaveral.ies.lendurcash.Utils.Adapters.MyAdapter;
-
-import java.util.List;
+import com.canaveral.ies.lendurcash.utils.adapters.HomeAdapter;
 
 
 public class HomeFragment extends Fragment {
@@ -21,7 +19,7 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_home, container, false);
         lvChats = (ListView) v.findViewById(R.id.lvHMFChats);
-        MyAdapter adapter = new MyAdapter(v.getContext(),R.layout.item_listview_chat);
+        HomeAdapter adapter = new HomeAdapter(v.getContext(),R.layout.item_listview_home);
         lvChats.setAdapter(adapter);
 
         return v;

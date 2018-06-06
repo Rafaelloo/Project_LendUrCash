@@ -10,17 +10,19 @@ import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.canaveral.ies.lendurcash.R;
 
 public class ActivitiesFragment extends Fragment {
+    private ImageButton ibAFMoney, ibAFTrip, ibAFHome, ibAFGroup;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         return inflater.inflate(R.layout.fragment_activities, container, false);
     }
-
-    public void mRedondearFoto(int foto){
+    /*public void mRedondearFoto(int foto){
         Drawable originalDrawable = getResources().getDrawable(foto);
         Bitmap originalBitmap = ((BitmapDrawable) originalDrawable).getBitmap();
 
@@ -31,8 +33,8 @@ public class ActivitiesFragment extends Fragment {
         //asignamos el CornerRadius
         roundedDrawable.setCornerRadius(originalBitmap.getHeight());
 
-        ImageView imageView = (ImageView) findViewById(ivTUPUTA);
+        ImageView ib = (ImageView) findViewById(R.id.);
 
         imageView.setImageDrawable(roundedDrawable);
-    }
+    }*/
 }

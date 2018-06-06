@@ -1,4 +1,4 @@
-package com.canaveral.ies.lendurcash.Entities;
+package com.canaveral.ies.lendurcash.entities;
 
 import java.util.ArrayList;
 

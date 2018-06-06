@@ -1,4 +1,4 @@
-package com.canaveral.ies.lendurcash.Entities;
+package com.canaveral.ies.lendurcash.entities;
 
 public class Deuditas {
     private String concepto;

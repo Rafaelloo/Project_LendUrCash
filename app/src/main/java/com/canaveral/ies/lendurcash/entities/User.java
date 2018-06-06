@@ -1,15 +1,13 @@
 package com.canaveral.ies.lendurcash.entities;
 
+import com.canaveral.ies.lendurcash.entities.Deuda;
+
 import java.util.ArrayList;
-import java.util.Map;
 
 public class User {
     private String user, mail, pass;
     private ArrayList<User> amigos;
     private ArrayList <Deuda> deudas;
-
-    public User() {
-    }
 
     public User(String user, String mail, String pass, ArrayList<User> amigos, ArrayList<Deuda> deudas) {
         this.user = user;

@@ -5,10 +5,17 @@
     android:layout_height="match_parent"
     tools:context=".fragments.SearchFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <EditText
+        android:id="@+id/etFSSearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:hint="Search..."/>
+
+    <ListView
+        android:id="@+id/lvFSUsers"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="search" />
-
+        android:layout_marginTop="50dp"/>
 </FrameLayout>
