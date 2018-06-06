@@ -1,6 +1,6 @@
-package com.canaveral.ies.lendurcash.Utils;
+package com.canaveral.ies.lendurcash.utils;
 
-import com.canaveral.ies.lendurcash.Entities.User;
+import com.canaveral.ies.lendurcash.entities.User;
 
 import java.util.ArrayList;
 

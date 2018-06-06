@@ -1,9 +1,6 @@
-package com.canaveral.ies.lendurcash.Utils.Adapters;
+package com.canaveral.ies.lendurcash.utils.adapters;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.Intent;
-import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,9 +8,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.canaveral.ies.lendurcash.Entities.User;
+import com.canaveral.ies.lendurcash.entities.User;
 import com.canaveral.ies.lendurcash.R;
-import com.canaveral.ies.lendurcash.Utils.DataHolder;
+import com.canaveral.ies.lendurcash.utils.DataHolder;
 import java.util.ArrayList;
 
 public class FriendsAdapter extends BaseAdapter{
