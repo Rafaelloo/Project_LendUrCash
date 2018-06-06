@@ -1,8 +1,12 @@
-package com.canaveral.ies.lendurcash.Utils;
+package com.canaveral.ies.lendurcash.utils;
 
+<<<<<<< HEAD
 import com.canaveral.ies.lendurcash.Entities.Deuda;
 import com.canaveral.ies.lendurcash.Entities.Deuditas;
 import com.canaveral.ies.lendurcash.Entities.User;
+=======
+import com.canaveral.ies.lendurcash.entities.User;
+>>>>>>> ffadc9b6d2cbbec0947572c9bbd6abd7edfb17df
 
 import java.util.ArrayList;
 import java.util.HashMap;

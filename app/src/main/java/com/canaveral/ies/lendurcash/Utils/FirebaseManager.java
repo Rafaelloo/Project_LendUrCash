@@ -1,4 +1,4 @@
-package com.canaveral.ies.lendurcash.Utils;
+package com.canaveral.ies.lendurcash.utils;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
